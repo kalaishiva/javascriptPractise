@@ -170,18 +170,18 @@ var person = function(firstname, coursecount) {
 
 //example - 2
 
-console.log("Closure");
+// console.log("Closure");
 
-function outer() {
-    let var1 = "Kalai";
+// function outer() {
+//     let var1 = "Kalai";
 
-    function inner() {
-        console.log(var1);
-    }
-    return inner;
-}
+//     function inner() {
+//         console.log(var1);
+//     }
+//     return inner;
+// }
 
 
-let var1 = outer();
-var1(); //kalai
-console.log(var1); //[Function: inner]
+// let var1 = outer();
+// var1(); //kalai
+// console.log(var1); //[Function: inner]
