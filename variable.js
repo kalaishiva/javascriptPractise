@@ -140,3 +140,56 @@
 // console.log(4 === '4'); //false
 
 // - Find the length of python and jargon and make a falsy comparison statement.
+
+// the length of python and jargon and make a falsy comparison statement.
+
+//12. Use the Date object to do the following activities
+/*
+const calender = new Date();
+console.log(calender); //Mon Sep 05 2022 21:38:21 GMT+0200 (Central European Summer Time)
+
+// - What is the year today?
+let year = calender.getFullYear()
+console.log(year); //2022
+
+
+// - What is the month today as a number?
+let month = calender.getMonth()
+console.log(month); //8
+
+// - What is the date today?
+let date = calender.getDate();
+console.log(date); //5
+
+// - What is the day today as a number?
+let day = calender.getDay();
+console.log(day); //1
+
+// - What is the hours now?
+let hours = calender.getHours();
+console.log(hours); //23
+
+// - What is the minutes now?
+let minutes = calender.getMinutes();
+console.log(minutes);
+
+//find seconds
+let seconds = calender.getSeconds();
+console.log(seconds);
+
+// - Find out the numbers of seconds elapsed from January 1, 1970 to now.
+
+const now = new Date();
+const secondsSinceEpoch = Math.round(now.getTime() / 1000);
+console.log(secondsSinceEpoch);
+
+*/
+
+17. Create a human readable time format using the Date time object
+    -
+    YYYY - MM - DD HH: mm
+
+
+    -
+    DD - MM - YYYY HH: mm -
+    DD / MM / YYYY HH: mm
