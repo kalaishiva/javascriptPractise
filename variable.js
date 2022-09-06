@@ -185,11 +185,22 @@ console.log(secondsSinceEpoch);
 
 */
 
-17. Create a human readable time format using the Date time object
-    -
-    YYYY - MM - DD HH: mm
+// 17. Create a human readable time format using the Date time object
+let calender = new Date();
+let year = calender.getFullYear();
+let month = calender.getMonth();
+let date = calender.getDate();
+let hours = calender.getHours();
+let min = calender.getMinutes();
 
+//     YYYY - MM - DD HH: mm
+let yearMonthDate = `${year} - ${month} - ${date}  ${hours}: ${min}  `;
+console.log(yearMonthDate);
 
-    -
-    DD - MM - YYYY HH: mm -
-    DD / MM / YYYY HH: mm
+//     DD - MM - YYYY HH: mm -
+let dateMonthYear = `${date} - ${month} - ${year}  ${hours}: ${min}`;
+console.log(dateMonthYear);
+
+//     DD / MM / YYYY HH: mm
+let dateMonthYear1 = `${date} / ${month} / ${year}  ${hours}: ${min}`;
+console.log(dateMonthYear1);
