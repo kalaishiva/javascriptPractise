@@ -184,7 +184,96 @@ const secondsSinceEpoch = Math.round(now.getTime() / 1000);
 console.log(secondsSinceEpoch);
 
 */
+/*
+//13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle(area = 0.5 x b x h).
 
+let base = prompt("Enter the base");
+let height = prompt("Enter the height");
+
+let areaOfTriangle = 0.5 * (base * height);
+console.log(base);
+console.log(height);
+console.log(`The area of the triangle with the base ${base} and the height ${height} is =  ${areaOfTriangle}`);
+*/
+/*
+//18. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+let user = prompt("Enter your age : ");
+let waitingYears = 18 - user;
+if (user >= 18) {
+    console.log('You are old enough to drive');
+} else {
+    console.log(`wait for ${waitingYears} years you needs to turn 18`)
+};
+*/
+/*
+//19. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+
+let num = prompt("Enter the number");
+if (num % 2 === 0) {
+    console.log(`The number ${num} is even `);
+} else {
+    console.log(`The number ${num} is odd`);
+}
+*/
+//20. Write a code which can give grades to students according to theirs scores:
+// - 80-100, A
+// - 70-89, B
+// - 60-69, C
+// - 50-59, D
+// - 0-49, F
+/*
+let inputScore = prompt("Enter the score between 0 to 100");
+let scores = parseInt(inputScore);
+
+if (scores >= 80 && scores <= 100) {
+    console.log(`The Student is A grade`);
+} else if (scores >= 70 && scores <= 89) {
+    console.log(`The Student is B grade`);
+} else if (scores >= 60 && scores <= 69) {
+    console.log(`The Student is C grade`);
+} else if (scores >= 50 && scores <= 59) {
+    console.log(`The Student is D grade`);
+} else if (scores >= 0 && scores <= 49) {
+    console.log(`The Student is F grade`);
+}
+*/
+// 21. Check
+// if the season is Autumn, Winter, Spring or Summer.If the user input is:
+//     -September, October or November, the season is Autumn. -
+//     December, January or February, the season is Winter. -
+//     March, April or May, the season is Spring. -
+//     June, July or August, the season is Summer.
+
+let month = prompt("enter the month");
+
+if (month === "September" || "October" || "November") {
+    console.log(`The season is Autumn.`)
+} else if (month === "December" || "January" || "February") {
+    console.log(`The season is Winter.`)
+} else if (month === "March" || "April" || "May") {
+    console.log(`The season is Spring.`)
+} else if (month === "June" || "July" || "August") {
+    console.log(`The season is Summer.`)
+}
+
+
+
+
+
+
+
+/*
+//16. Get radius using prompt and calculate the area of a circle(area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+let radius = prompt("Radius");
+let pi = Math.PI;
+console.log(pi);
+let areaOfCircle = pi * (radius * radius);
+console.log(`The area of circle with radius ${radius} = ${areaOfCircle}`);
+
+let circumferenceOfCircle = 2 * pi * radius;
+console.log(`The circumference of circle is with radius ${radius} = ${circumferenceOfCircle}`);
+*/
+/*
 // 17. Create a human readable time format using the Date time object
 let calender = new Date();
 let year = calender.getFullYear();
@@ -194,13 +283,14 @@ let hours = calender.getHours();
 let min = calender.getMinutes();
 
 //     YYYY - MM - DD HH: mm
-let yearMonthDate = `${year} - ${month} - ${date}  ${hours}: ${min}  `;
+let yearMonthDate = `${year} - ${month} - ${date}  ${hours}: ${min}  `; //  2022 - 8 - 6  9: 1 
 console.log(yearMonthDate);
 
 //     DD - MM - YYYY HH: mm -
-let dateMonthYear = `${date} - ${month} - ${year}  ${hours}: ${min}`;
+let dateMonthYear = `${date} - ${month} - ${year}  ${hours}: ${min}`; //  6 - 8 - 2022  9: 1
 console.log(dateMonthYear);
 
 //     DD / MM / YYYY HH: mm
-let dateMonthYear1 = `${date} / ${month} / ${year}  ${hours}: ${min}`;
+let dateMonthYear1 = `${date} / ${month} / ${year}  ${hours}: ${min}`; //  6 / 8 / 2022  9: 1
 console.log(dateMonthYear1);
+*/
