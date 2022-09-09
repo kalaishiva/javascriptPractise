@@ -244,19 +244,36 @@ if (scores >= 80 && scores <= 100) {
 //     March, April or May, the season is Spring. -
 //     June, July or August, the season is Summer.
 
-let month = prompt("enter the month");
+// let month = prompt("enter the month");
 
-if (month === "September" || "October" || "November") {
-    console.log(`The season is Autumn.`)
-} else if (month === "December" || "January" || "February") {
-    console.log(`The season is Winter.`)
-} else if (month === "March" || "April" || "May") {
-    console.log(`The season is Spring.`)
-} else if (month === "June" || "July" || "August") {
-    console.log(`The season is Summer.`)
+// if (month === "September" || "October" || "November") {
+//     console.log(`The season is Autumn.`)
+// } else if (month === "December" || "January" || "February") {
+//     console.log(`The season is Winter.`)
+// } else if (month === "March" || "April" || "May") {
+//     console.log(`The season is Spring.`)
+// } else if (month === "June" || "July" || "August") {
+//     console.log(`The season is Summer.`)
+// }
+
+//22. Write a program which tells the number of days in a month.
+
+let month = prompt('Enter the month');
+
+
+if (month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december") {
+    console.log(`${month} is having  31 days`);
+} else if (month == "april" || month == "june" || month == "september" || month == "november") {
+    console.log(`${month} is having 30 days`)
+} else if (month == "february") {
+    console.log(`${month} is having 28 days`)
 }
 
 
+
+
+
+//23. Write a program which tells the number of days in a month, now consider leap year.
 
 
 
