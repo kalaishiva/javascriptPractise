@@ -258,22 +258,40 @@ if (scores >= 80 && scores <= 100) {
 
 //22. Write a program which tells the number of days in a month.
 
-let month = prompt('Enter the month');
+// let month = prompt('Enter the month');
 
 
-if (month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december") {
-    console.log(`${month} is having  31 days`);
-} else if (month == "april" || month == "june" || month == "september" || month == "november") {
-    console.log(`${month} is having 30 days`)
-} else if (month == "february") {
-    console.log(`${month} is having 28 days`)
-}
+// if (month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december") {
+//     console.log(`${month} is having  31 days`);
+// } else if (month == "april" || month == "june" || month == "september" || month == "november") {
+//     console.log(`${month} is having 30 days`)
+// } else if (month == "february") {
+//     console.log(`${month} is having 28 days`)
+// }
 
 
 
 
 
 //23. Write a program which tells the number of days in a month, now consider leap year.
+let leapYear = prompt("Enter the year ");
+
+if (leapYear % 4 === 0) {
+    if (leapYear % 100 === 0) {
+        if (leapYear % 400 === 0) {
+            console.log(`It's  a leap year`);
+        } else {
+            console.log(`It's not a leap year`);
+        }
+
+    } else {
+        console.log(`It's  a leap year`);
+
+    }
+
+} else {
+    console.log(`It's not a leap year`);
+}
 
 
 
