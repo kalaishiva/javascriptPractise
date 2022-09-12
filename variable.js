@@ -258,7 +258,7 @@ if (scores >= 80 && scores <= 100) {
 
 //22. Write a program which tells the number of days in a month.
 
-// let month = prompt('Enter the month');
+//let month = prompt('Enter the month');
 
 
 // if (month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december") {
