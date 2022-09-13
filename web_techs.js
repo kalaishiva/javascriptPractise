@@ -1,0 +1,1 @@
+export let webTechs = ["Java", "Javascript", "React", "C#", "Python", "MangoDB", "php", "C++", "NodeJS", "NEXT JS"];
