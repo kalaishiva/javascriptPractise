@@ -272,7 +272,7 @@ if (scores >= 80 && scores <= 100) {
 
 
 
-
+/*
 //23. Write a program which tells the number of days in a month, now consider leap year.
 let leapYear = prompt("Enter the year ");
 
@@ -295,7 +295,7 @@ if (leapYear % 4 === 0) {
 
 
 
-
+*/
 
 /*
 //16. Get radius using prompt and calculate the area of a circle(area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
@@ -329,3 +329,32 @@ console.log(dateMonthYear);
 let dateMonthYear1 = `${date} / ${month} / ${year}  ${hours}: ${min}`; //  6 / 8 / 2022  9: 1
 console.log(dateMonthYear1);
 */
+/*
+26. In countries array check
+if 'Ethiopia'
+exists in the array
+if it exists print 'ETHIOPIA'.If it does not exist add to the countries list.
+*/
+
+let country = ['Ethiopia'];
+//country.push("hi");
+
+//console.log(country);
+let upper = [];
+let ele = [];
+upper = country.map((element) => {
+
+    if (element === 'Ethiopia') {
+        return element.toUpperCase();
+    } else {
+        ele = upper.push("Ethiopia", "india");
+        return ele;
+
+
+
+
+    }
+});
+console.log(ele);
+console.log(upper);
+console.log(country);
