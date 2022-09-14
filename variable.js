@@ -336,25 +336,15 @@ exists in the array
 if it exists print 'ETHIOPIA'.If it does not exist add to the countries list.
 */
 
-let country = ['Ethiopia'];
-//country.push("hi");
+let country = ['Ethi', 'India'];
+let index = country.indexOf('Ethiopia');
 
-//console.log(country);
-let upper = [];
-let ele = [];
-upper = country.map((element) => {
+console.log(index);
 
-    if (element === 'Ethiopia') {
-        return element.toUpperCase();
-    } else {
-        ele = upper.push("Ethiopia", "india");
-        return ele;
-
-
-
-
-    }
-});
-console.log(ele);
-console.log(upper);
-console.log(country);
+if (index != -1) {
+    country[index] = country[index].toUpperCase();
+    console.log(country);
+} else {
+    country.push('Ethiopia');
+    console.log(country);
+}
